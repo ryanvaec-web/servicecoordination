@@ -1,0 +1,134 @@
+# servicecoordination
+service coordination
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ryan Pangilinan | Service Coordinator</title>
+<meta name="description" content="Remote Service Coordinator: scheduling, customer communication and service records, with a technician background in heavy equipment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#14213a;--navy2:#1d2e50;--paper:#f3f5f8;--ink:#141b2b;--muted:#4a566d;--amber:#8cc4ff;--blue:#2a6fd0;--wa:#157a45;--line:#d5dbe6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Barlow,system-ui,sans-serif;font-size:1.05rem;line-height:1.6;color:var(--ink);background:var(--paper)}
+h1,h2,h3{font-family:'Barlow Condensed',Impact,sans-serif;line-height:1.05;margin:0}
+a{color:inherit}
+a:focus-visible,.btn:focus-visible{outline:3px solid #4d94ee;outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+.hero{background:var(--navy);color:#fff}
+.hero .wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:32px;align-items:end;min-height:560px}
+.hero-text{padding:72px 0}
+.hero h1{font-size:clamp(3rem,8vw,5.4rem);font-weight:700;letter-spacing:.5px}
+.role{font-family:'Barlow Condensed',sans-serif;font-size:clamp(1.3rem,3vw,1.75rem);font-weight:600;color:var(--amber);margin:14px 0 20px}
+.hero p{max-width:34em;color:#d6deed;margin:0 0 28px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 22px;font-weight:600;text-decoration:none;border:2px solid var(--amber)}
+.btn.main{background:var(--blue);border-color:var(--blue);color:#fff}
+.btn.wa{background:var(--wa);border-color:var(--wa);color:#fff}
+.btn.alt{color:#fff}
+.hero img{display:block;width:100%;max-width:340px;height:auto;margin-left:auto}
+section{padding:64px 0;border-bottom:1px solid var(--line)}
+h2{font-size:2.3rem;font-weight:700;margin-bottom:24px;color:var(--navy)}
+.about{max-width:44em}
+.about p{margin:0 0 16px}
+.groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}
+.groups h3{font-size:1.4rem;color:var(--navy);border-bottom:3px solid var(--blue);padding-bottom:6px;margin-bottom:12px}
+.groups ul{margin:0;padding-left:20px}
+.groups li{margin-bottom:6px}
+.jobs{list-style:none;margin:0;padding:0;border-left:3px solid var(--navy)}
+.jobs li{position:relative;padding:0 0 30px 26px}
+.jobs li::before{content:"";position:absolute;left:-9px;top:8px;width:15px;height:15px;background:var(--blue);border:3px solid var(--paper);border-radius:50%;box-shadow:0 0 0 2px var(--navy)}
+.jobs h3{font-size:1.5rem;color:var(--navy)}
+.jobs .where{color:var(--muted);font-weight:500;margin:2px 0 6px}
+.jobs p{margin:0;max-width:44em}
+.edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.edu div{background:#fff;border-left:5px solid var(--blue);padding:16px 20px}
+.edu strong{display:block}
+.contact{background:var(--navy);color:#fff;border:0}
+.contact h2{color:#fff}
+.contact p{max-width:36em;color:#d6deed}
+.contact address{font-style:normal;margin:20px 0 28px;line-height:1.9}
+footer{background:var(--navy2);color:#a9b6cf;text-align:center;padding:18px;font-size:.9rem}
+@media(max-width:760px){.hero .wrap{grid-template-columns:1fr;min-height:0}.hero-text{padding:48px 0 8px}.hero img{margin:0 auto;max-width:260px}}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="wrap">
+<div class="hero-text">
+<h1>Ryan Pangilinan</h1>
+<div class="role">Service Coordinator | Equipment &amp; Parts Support</div>
+<p>I manage scheduling, customer communication and service records, so your technicians stay organized and your clients stay informed. I am a former technician myself, with a hands-on background in heavy equipment, agricultural machinery and IT hardware. I work remotely from the Philippines.</p>
+<div class="btns">
+<a class="btn main" href="mailto:ryanuban0000@gmail.com?subject=Service%20Coordinator%20Inquiry">Email me</a>
+<a class="btn wa" href="https://wa.me/639462422255?text=Hello%20Ryan%2C%20I%20am%20contacting%20you%20about%20the%20Service%20Coordinator%20role.">WhatsApp me</a>
+<a class="btn alt" href="#experience">See my experience</a>
+</div>
+</div>
+<img src="photo.png" alt="Ryan Pangilinan in a dark suit and tie" width="332" height="548">
+</div>
+</header>
+
+<main>
+<section id="about"><div class="wrap about">
+<h2>About</h2>
+<p>A good service coordinator is the hub of the operation. Technicians need the job details, the right parts and a schedule that works. Clients need to know what is happening and when. Records need to be accurate so nothing gets lost.</p>
+<p>I have worked on the repair side of heavy equipment and agricultural machinery, so I know what technicians need to get a job done. I am comfortable confirming parts against year, model and serial number, working with several suppliers, and keeping clear customer communication by phone, chat or email. I am open to a short unpaid training period to learn your systems.</p>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>What I coordinate</h2>
+<div class="groups">
+<div><h3>Scheduling and technicians</h3><ul>
+<li>Job scheduling and dispatch coordination</li>
+<li>Keeping technicians organized with clear job details, parts and follow-ups</li>
+<li>Multi-supplier coordination: pricing, availability and order follow-up</li></ul></div>
+<div><h3>Customer communication</h3><ul>
+<li>Phone, chat and email support</li>
+<li>Customer follow-up and status updates</li>
+<li>Warranty and returns troubleshooting</li></ul></div>
+<div><h3>Service records</h3><ul>
+<li>Parts catalogs and inventory systems</li>
+<li>Part identification by make, model and serial number</li>
+<li>Spec sheet reading and pre-delivery inspection (PDI)</li>
+<li>Inventory accuracy</li></ul></div>
+</div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience</h2>
+<ul class="jobs">
+<li><h3>Owner, Retail Store</h3><div class="where">Self-employed | 2016 to present</div><p>Manage inventory accuracy and customer service hands-on across about 300 SKUs.</p></li>
+<li><h3>Heavy Equipment Mechanic</h3><div class="where">YANMAR / KEP, Yanmar and Sumitomo distributor | 2018 to 2019</div><p>Confirmed exact part numbers against year and model specs before ordering, and coordinated with 3 suppliers on pricing and availability for repair jobs. Most work was preventive maintenance service on brand new units.</p></li>
+<li><h3>Agricultural Equipment Technician</h3><div class="where">Kubota Philippines | 2016 to 2018</div><p>Performed pre-delivery inspection on incoming units, reading spec sheets and serial numbers for accuracy.</p></li>
+<li><h3>Heavy Truck Assembly Technician</h3><div class="where">SOBIDA | 2015 to 2016</div><p>Built heavy trucks from bare chassis through drivetrain, systems installation and final commissioning.</p></li>
+<li><h3>Warranty / Returns Technician</h3><div class="where">CD-R King | 2012 to 2015</div><p>Diagnosed and processed about 30 units a day using parts catalogs and inventory systems.</p></li>
+</ul>
+</div></section>
+
+<section id="education"><div class="wrap">
+<h2>Education</h2>
+<div class="edu">
+<div><strong>Diploma in Computer and Electronics</strong>2002 to 2004</div>
+<div><strong>Diesel Mechanic Tech-Voc</strong>2015</div>
+</div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+<h2>Let's talk</h2>
+<p>Available as a 1099 contractor for remote service coordination and parts support. Based in the Philippines and open to US and Australian clients.</p>
+<address>Caloocan, Philippines (remote)<br>
+<a href="mailto:ryanuban0000@gmail.com">ryanuban0000@gmail.com</a><br>
+<a href="tel:+639462422255">+63 946 242 2255</a><br>
+WhatsApp: <a href="https://wa.me/639462422255?text=Hello%20Ryan%2C%20I%20am%20contacting%20you%20about%20the%20Service%20Coordinator%20role.">+63 946 242 2255</a></address>
+<div class="btns"><a class="btn main" href="mailto:ryanuban0000@gmail.com?subject=Service%20Coordinator%20Inquiry">Send an email</a>
+<a class="btn wa" href="https://wa.me/639462422255?text=Hello%20Ryan%2C%20I%20am%20contacting%20you%20about%20the%20Service%20Coordinator%20role.">Message on WhatsApp</a></div>
+</div></section>
+</main>
+<footer>&copy; Ryan Pangilinan</footer>
+</body>
+</html>
